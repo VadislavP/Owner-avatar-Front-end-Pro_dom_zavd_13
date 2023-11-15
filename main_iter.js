@@ -1,4 +1,3 @@
-function createSlider() {
     const ACTIVE_CLASS_NAME = 'active--li';
     let currentSlide = 0;
 
@@ -60,6 +59,5 @@ function createSlider() {
     dots.forEach((dot, index) => {
         dot.addEventListener('click', () => handleDotClick(index));
     });
-}
 
-createSlider();
+

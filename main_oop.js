@@ -17,7 +17,6 @@ class Slider {
             }
         });
 
-        this.createDots();
         this.updateButtonsVisibility();
     }
 
